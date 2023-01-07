@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{1F2AED13-3375-4671-B887-BE15AC0DE651}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>xanad</RootNamespace>
+    <AssemblyName>xanad</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseVSHostingProcess>true</UseVSHostingProcess>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="buttercupdance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buttercupdance.Designer.cs">
+      <DependentUpon>buttercupdance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="code.Designer.cs">
+      <DependentUpon>code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Humanoids.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Humanoids.Designer.cs">
+      <DependentUpon>Humanoids.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainpage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainpage.Designer.cs">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form10.Designer.cs">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="buttercupsleep.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="buttercupsleep.Designer.cs">
+      <DependentUpon>buttercupsleep.cs</DependentUpon>
+    </Compile>
+    <Compile Include="page2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="page2.Designer.cs">
+      <DependentUpon>page2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="zz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="zz.Designer.cs">
+      <DependentUpon>zz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yy.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yy.Designer.cs">
+      <DependentUpon>yy.cs</DependentUpon>
+    </Compile>
+    <Compile Include="yyvideo1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="yyvideo1.Designer.cs">
+      <DependentUpon>yyvideo1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="dd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="dd.Designer.cs">
+      <DependentUpon>dd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="french -song.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="french -song.Designer.cs">
+      <DependentUpon>french -song.cs</DependentUpon>
+    </Compile>
+    <Compile Include="themesong.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="themesong.Designer.cs">
+      <DependentUpon>themesong.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mojofrench.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mojofrench.Designer.cs">
+      <DependentUpon>mojofrench.cs</DependentUpon>
+    </Compile>
+    <Compile Include="nnSpecies.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="nnSpecies.Designer.cs">
+      <DependentUpon>nnSpecies.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="buttercupdance.resx">
+      <DependentUpon>buttercupdance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="code.resx">
+      <DependentUpon>code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Humanoids.resx">
+      <DependentUpon>Humanoids.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainpage.resx">
+      <DependentUpon>mainpage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form10.resx">
+      <DependentUpon>Form10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="buttercupsleep.resx">
+      <DependentUpon>buttercupsleep.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="page2.resx">
+      <DependentUpon>page2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="zz.resx">
+      <DependentUpon>zz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yy.resx">
+      <DependentUpon>yy.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="yyvideo1.resx">
+      <DependentUpon>yyvideo1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="dd.resx">
+      <DependentUpon>dd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="french -song.resx">
+      <DependentUpon>french -song.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="themesong.resx">
+      <DependentUpon>themesong.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mojofrench.resx">
+      <DependentUpon>mojofrench.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="nnSpecies.resx">
+      <DependentUpon>nnSpecies.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="videos\videoplayback %281%29.mp4" />
+    <Content Include="videos\videoplayback.mp4" />
+    <Content Include="videos\YY.mp4" />
+    <Content Include="videos\ZZ Dances.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %283%29.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %284%29.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %285%29.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %286%29.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %287%29.mp4" />
+    <Content Include="videos\İsimsiz video ‐ Clipchamp ile yapıldı %288%29.mp4" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
